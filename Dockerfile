@@ -5,7 +5,7 @@ FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 
 # Copy the HTML files to the container
-COPY ./www /usr/share/nginx/html
+COPY ./lab4 /usr/share/nginx/html
 
 # Start Nginx web server
 CMD ["nginx", "-g", "daemon off;"]
